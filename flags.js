@@ -767,7 +767,7 @@ collectAccessibilityIssues();
 
 
 async function testGeminiAPI(params) {
-    const apiKey = "AIzaSyAH71xOefWJ4US4G6HE-mQ8AOdsAoApi9M"; 
+    const apiKey = ""; 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     if (!params) {
